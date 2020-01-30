@@ -1,5 +1,7 @@
 // This Object is made in accordance with the name taken from the used boxes and search button. 
 // It is clubbed with GoogleSearchTest.
+
+// The two files were kept in different folders as specified in the test file . 
 package pages;
 
 import org.openqa.selenium.By; // Importing the Selenium Library
@@ -13,7 +15,7 @@ public class GoogleSearchPageObject {
 	// Check for the initialised value otherwise the test won't run. 
 	By textbox_search_googleSearch = By.id("lb-tst"); // defining the elements that are utilised by the user - Textbox for Search and to click for searching about the stuff
 			
-	By button_search_googleSearch = By.name("btnK");
+	By button_search_googleSearch = By.name("btnK"); // This is taken by right-clicking on inspect and making forward with For instance we had google.com in consideration, so we right clicked on Google Search. 
 	
 	public GoogleSearchPageObject(WebDriver driver) { 
 		
